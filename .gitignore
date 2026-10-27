@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Sensitive files
+.env*
+
+# Node.js
+node_modules/
+dist/
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+
+# Built Visual Studio Code Extensions
+*.vsix

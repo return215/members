@@ -1,0 +1,34 @@
+{
+  "name": "members.return215.xyz",
+  "version": "0.1.0",
+  "description": "members of the returning souls",
+  "keywords": [
+    "ssg",
+    "api",
+    "json",
+    "frontend",
+    "web",
+    "character",
+    "dnd"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@r215gh:return215/members.git"
+  },
+  "license": "ISC",
+  "author": "return215",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node --test",
+    "build": "node src/build.js",
+    "dev": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^18.1.2"
+  }
+}
